@@ -41,6 +41,10 @@ public class CalendarExample {
         Calendar dateAddYears = Calendar.getInstance();
         dateAddYears.add(Calendar.YEAR, 5);
         System.out.println("Adicionando anos: " + sdf.format(dateAddYears.getTime()));
+//
+//        LocalTime agora = LocalTime.now();
+//        LocalDate hoje = LocalDate.now();
+//        LocalDateTime dataEhora = hoje.atTime(agora);
 
         // Data de agora
         // Setta valor na data
